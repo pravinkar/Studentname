@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Get Details Display in Table</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!--Code to get multiple students and display them in a table-->
+  
+
+    <div id="container">
+        
+        <div id="nameDiv" class="input">Name: <input id="name" type="text"
+            placeholder="ethan"/>
+        </div>
+        <div class="input">Age: <input id="age" type="text"
+            placeholder="30"/></div>
+        <div class="input">Grade: <input id="grade" type="text"
+            placeholder="A"/></div>
+           
+        <button id="entry">Submit</button>
+        <button id="btnDelete" onclick="deleteRows();">Delete</button>
+        <p id="edit"> </p>
+        <button type="submit" id="edit-button">Edit</button>
+        <button type="submit" id="end-editing">Update</button>
+      </div>
+        
+        
+
+        <!-- <button id="entry">submit</button>   
+        <button id="Delete">Delete</button>  -->
+    </div>
+   
+    
+    <table id="display">
+        <thead>
+            <tr>
+                <th><input type="checkbox" onclick="selects(this.checked);" /></th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+                
+            </tr>
+        </thead>
+       
+
+            
+    </table>
+   
+
+    
+    
+    <script src="script.js">
+        
+    </script>
+    
+</body>
+</html>

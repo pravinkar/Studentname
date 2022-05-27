@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #b3ffff;
+
+    /*Radial gradient background _ css */
+    background: radial-gradient(rgba(179, 255, 255, 0.5),rgba(255,255,255,0.5),rgba(0,0,0,0.2));
+    text-align: center;
+}
+#nameDiv{
+    margin-top: 50px;
+}
+
+.input {
+    font-size: 25px;
+    color: #004d00;
+    font-weight: 700;
+    font-family: cursive;
+    margin: 10px;
+}
+
+#entry{
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    font-family: "comic sans MS";
+    background-color: #001a66;
+    color: whitesmoke;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+
+}
+
+#btnDelete{
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    font-family: "comic sans MS";
+    background-color: #001a66;
+    color: whitesmoke;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: burlywood;
+}
+
+table, th, td {
+    border: 2px solid black;
+    padding: 5px;
+} 
+
+th {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: arial;
+    color: #004d00;
+}
+
+td {
+    font-size: 25px;
+    color: crimson;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#edit {
+    padding: 5px;
+    outline: none;
+  }
+  
+  button {
+    width: 80px;
+    padding: 5px;
+    margin: 0 3px;
+    background-color: #ff7e00;
+    outline: none;
+    border: 1px solid #ff7e00;
+    box-shadow: 2px 2px 2px #3f3f3f;
+  }
+  
+  button:hover {
+    box-shadow: 2px 2px 3px ;
+  }
+  
+  button:active {
+    box-shadow: 1px 1px 3px ;
+  }
+  
